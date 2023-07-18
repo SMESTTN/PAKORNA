@@ -1,104 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Personal Profile</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Professional Profile</title>
+  <style>
+    /* CSS Styling */
+
+    .profile-card {
+      width: 300px;
+      padding: 20px;
+      background-color: #f1f1f1;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      text-align: center;
+      font-family: Arial, sans-serif;
+      margin: 0 auto;
+    }
+    
+    .profile-image {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+    
+    .profile-name {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    
+    .profile-job-title {
+      font-size: 16px;
+      color: #888;
+      margin-bottom: 15px;
+    }
+    
+    .contact-links a {
+      display: inline-block;
+      margin: 5px;
+      width: 30px;
+      height: 30px;
+      background-size: cover;
+      background-position: center;
+      border-radius: 50%;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Personal Profile</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#Gender">Gender</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="picture1.html">Gallery</a></li>
-        <li><a href="#question?">Question</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <section id="about">
-    <h2>About Me</h2>
-    <p> English - My name is Vier and I want to be a good person. 
-        I want to graduate from this Sangthong Wittaya School in Secondary 3 <br>
-        and continue at Mahidol Wittayanusorn School.<br>
-        and go to Chulalongkorn University <br>
-        and will go on to pursue master's and doctorate degrees abroad in the Faculty of Medicine, Veterinary Medicine, Engineering<br>
-        technology, political science, law<br><br>
-        
-        I want to make a super computer and finance<br><br>
-        Japanese - 私の名前はヴィアです。良い人になりたいです。私はこのサントーン・ウィタヤ・スクールを中等３で卒業したいと思っています。<br>
-        そしてマヒドル・ウィッタヤヌソン・スクールで続けます。<br>
-        そしてチュラロンコン大学へ<br>
-        その後、海外の医学部、獣医学部、工学部で修士号および博士号の取得を目指します。<br>
-        テクノロジー、政治学、法律<br><br>
-        
-        スーパーコンピューターと金融を作りたい<br><br>
-
-        German - Mein Name ist Vier und ich möchte ein guter Mensch sein. Ich möchte die 3. Sekundarstufe dieser Sangthong-Wittaya-Schule abschließen<br>
-        und weiter an der Mahidol Wittayanusorn Schule.<br>
-        und gehe zur Chulalongkorn-Universität<br>
-        und wird anschließend Master- und Doktorgrade im Ausland an der Fakultät für Medizin, Veterinärmedizin und Ingenieurwesen anstreben<br>
-        Technik, Politikwissenschaft, Recht<br><br>
-        
-        Ich möchte einen Supercomputer bauen und finanzieren<br><br>
-
-        Russian - Меня зовут Виер, и я хочу быть хорошим человеком. Я хочу закончить эту школу Sangthong Wittaya в средней школе 3 <br>
-        и продолжить обучение в школе Махидол Виттаянусорн.<br>
-        и поступить в университет Чулалонгкорн<br>
-        и продолжит обучение в магистратуре и докторантуре за границей на факультете медицины, ветеринарии, инженерии<br>
-        технологии, политология, право<br><br>
-        
-        Я хочу сделать суперкомпьютер и финансы<br><br>
-    </p>
-  </section>
-
-  <section id="Gender">
-    <h2>Gender</h2>
-    <ul>
-      <li>Maybe Bisexual !!!</li>
-    </ul>
-  </section>
-
-  <section id="question?">
-    <h2>Question About Me ?</h2>
-    <ul>
-      <li>Q : Who is prettiest girl in M1/10 Room ?<br>A : I think answer is urr... , guess it !!!</li>
-      <li>Q : What is the best person in M1/10 Room ?<br>A : I think Guy or not SeeNam .</li>
-    </ul>
-  </section>
-
-  <section id="experience">
-    <h2>Experience</h2>
-    <ul>
-      <li>Founder of SME 16th HTML site .</li>
-      <li>Semi-creater SME 16th Music .</li>
-      <li>Start coding since 2020</li>
-    </ul>
-  </section>
-
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>Scratch</li>
-      <li>Python</li>
-      <li>Javascript</li>
-    </ul>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: vier9163@gmail.com</p>
-    <p>Phone: 097188193</p>
-  </section>
-
-  <footer>
-    <p>&copy; 2023 Personal Profile. All rights reserved.</p>
-  </footer>
+  <div class="profile-card">
+    <img src="https://img.freepik.com/premium-vector/cartoon-cute-cat-with-square-shape-square-icon-apps-games-vector-illustration-isolated_351178-23.jpg" class="profile-image" alt="Profile Image">
+    <div class="profile-name">Pakorn Rattanaksri</div>
+    <div class="profile-job-title">Students Grade 7</div>
+    <div class="contact-links">
+      <a href="https://www.instagram.com/the_voldemort_want_u/" style="background-image: url('IG.png');" title="Instagram"></a>
+      <a href="https://www.youtube.com/channel/UCSWYbgHOttNAcDkNeDKs6bg" style="background-image: url('YT.png');" title="YouTube"></a>
+      <a href="https://twitter.com/AlreadyKILLER  " style="background-image: url('TWIT.png');" title="Twitter"></a>
+      <a href="dont_press_it.txt" style="background-image: url('EAST1.png');" title="Don't press it !!!"></a>
+    </div>
+  </div>
 </body>
 </html>
